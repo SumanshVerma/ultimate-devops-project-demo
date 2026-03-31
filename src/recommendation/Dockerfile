@@ -10,7 +10,6 @@ RUN pip install setuptools
 
 COPY . .
 
-RUN opentelemetry-bootstrap -a install 
 
 ENV RECOMMENDATION_PORT 1010
 
