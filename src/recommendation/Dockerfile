@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/python-312:latest AS base
+FROM quay.io/fedora/python-312:latest AS base
 
 WORKDIR /usr/src/app
 
